@@ -1,0 +1,432 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+#mainDiv{
+    width: 100%;
+    height: auto;
+}
+/* =============================--------------------------------- HEADER BASLANGIC=============================--------------------------------------------- */
+#mainDiv #header{
+    width: 100%;
+    height: 800px;
+    background: url(https://images03.nicepage.com/05136ab1d24c39d6df2c5e00/f015a76c69245d0b99b5695b/bg2.jpg) center;
+    background-size: cover;
+}
+
+#mainDiv #header h1{
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+    transform: translateY(250px);
+}
+
+#mainDiv #header p{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    transform: translateY(250px);
+}
+
+#mainDiv #header b{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    transform: translateY(300px) translateX(500px);
+    text-align: center;
+    display: inline-block;
+    overflow:visible;
+}
+
+#mainDiv #header i{
+    font-size: 1.5em;
+    transform: translateX(700px) translateY(20px);
+    display: inline-block;
+    cursor: pointer;
+}
+/* ===============================----------------------------------HEADER BITIS==================================------------------------------------------ */
+
+
+/* ===============================------------------------------- CONTENT BASLANGIC===============================---------------------------------------- */
+
+#mainDiv #content{
+    width: 100%;
+    height: 600px;
+    background:  #E72E36;
+    display: inline-block;
+}
+
+#mainDiv #content img{
+    float:right;
+    display: inline-block;
+}
+
+#mainDiv #content p{
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    transform: translateX(500px) translateY(20px);
+    display: inline-block;
+}
+
+#mainDiv #content h1{
+    color: white;
+    font-size: 150px;
+    font-weight: bold;
+    font-family:Roboto,sans-serif;
+    letter-spacing: 5px;
+    display: inline-block;
+    transform: translateX(210px) translateY(160px);
+}
+
+#mainDiv #content b{
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    transform: translateY(240px) translateX(-5px);
+}
+
+#mainDiv #content i{
+    font-size: 20px;
+    color:white;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-family: Roboto,sans-serif;
+    transform: translateY(300px) translateX(-5px);
+    display: inline-block;
+    cursor: pointer;
+}
+
+#mainDiv #content h2{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    width: 600px;
+    text-align: right;
+    transform: translateX(190px) translateY(250px);
+    line-height: 1.3;
+}
+
+#mainDiv #content #border{
+    border-bottom: 10px solid white;
+    width: 145px;
+    transform: translateX(600px) translateY(300px);
+}
+
+/* ===============================------------------------------- CONTENT BITIS===============================----------------------------------------  */
+
+/* ===============================------------------------------- ABOUT BASLANGIC===============================----------------------------------------   */
+
+#mainDiv #about {
+    width: 100%;
+    height: 700px;
+    background: #000;
+}
+
+#mainDiv #about h1{
+    font-size: 150px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    font-family: Roboto,sans-serif;
+    transform: translateX(250px) translateY(100px);
+}
+
+#mainDiv #about h2{
+    font-size:50px ;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+    transform: translateX(85px)translateY(200px);
+}
+
+#mainDiv #about h3{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-block;
+    transform: translateX(-185px) translateY(250px);
+}
+
+#mainDiv #about p{
+    color: white;
+    width: 450px;
+    font-size: 19px;
+    line-height: 1.3;
+    transform: translateX(250px) translateY(250px);
+}
+
+#mainDiv #about h4{
+    font-size: 150px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    transform: translateY(-200px) translateX(900px);
+    display: inline-block;
+}
+
+#mainDiv #about h5{
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    transform: translateX(740px) translateY(-110px);
+    font-family: Roboto,sans-serif;
+    word-spacing: 5px;
+}
+
+#mainDiv #about h6{
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    transform: translateX(445px) translateY(-50px);
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+}
+
+#mainDiv #about i{
+    color: white;
+    width: 450px;
+    font-size: 19px;
+    line-height: 1.3;
+    display: inline-block;
+    transform: translateX(200px) translateY(100px);
+}
+
+/* ===============================------------------------------- ABOUT BITIS===============================----------------------------------------*/
+
+/* ===============================------------------------------- DESIGN BASLANGIC===============================----------------------------------------   */
+#mainDiv #design{
+    width: 100%;
+    height: 550px;
+    background:url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/5c2634996bff53a7a994b924/pexelsphoto218863.jpeg) center;
+    background-size: cover;
+}
+
+#mainDiv #design p{
+    color: #F3F3F3;
+    width: 500px;
+    font-size: 45px;
+    line-height: 1.3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    transform: translateX(200px) translateY(250px);
+    display: inline-block;
+}
+
+#mainDiv #design h1{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-weight: bold;
+    transform: translateX(-305px) translateY(310px);
+}
+/* ===============================------------------------------- DESIGN BITIS===============================----------------------------------------   */
+
+
+/* ===============================------------------------------- FOLLOW US BASLANGIC===============================------------------------------- */
+
+#mainDiv #follow_us{
+    width: 100%;
+    height: 300px;
+    background:#E72E36;
+}
+
+#mainDiv #follow_us h1{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    transform: translateX(585px) translateY(80px);
+}
+
+#mainDiv #follow_us i{
+    color: white;
+    font-size: 30px;
+    margin: 15px;
+    transform: translateX(280px) translateY(130px);
+    display: inline-block;
+    cursor: pointer;
+}
+
+#mainDiv #follow_us #border{
+    border-bottom: 10px solid white;
+    width: 100px;
+    transform: translateX(680px) translateY(130px);
+}
+
+/* ===============================-------------------------------FOLLOW US BITIS===============================------------------------------- */
+
+/* ===============================--------------------------------SALE BASLANGIC ===============================------------------------------- */
+#mainDiv #sale{
+    width: 100%;
+    height: 700px;
+    background: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ed5530a7ad325fa393d73e4c/xdz.jpg) center;
+    background-size: cover;
+}
+
+#mainDiv #sale #border{
+    border: 8px solid white;
+    width: 430px;
+    height: 550px;
+    transform: translateX(200px) translateY(80px);
+}
+
+#mainDiv #sale #border img{
+    transform: translateX(-80px) translateY(50px);
+}
+
+#mainDiv #sale h1{
+    color: white;
+    font-size: 120px;
+    transform: translateY(-250px) translateX(50px);
+    font-weight:300;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+}
+
+#mainDiv #sale h2{
+    color: white;
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-260px)translateX(100px);
+    font-weight: 400;
+}
+
+#mainDiv #sale h3{
+    color: #E72E36;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-align: center;
+    transform: translateY(-350px)translateX(800px);
+    display: inline-block;
+}
+
+#mainDiv #sale p{
+    width: 350px;
+    color: #FFFFFF;
+    font-size: 20px;
+    display: inline-block;
+    transform: translateX(460px) translateY(-220px);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+#mainDiv #sale b{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    display: inline-block;
+    transform: translateX(105px) translateY(-170px);
+    cursor: pointer;
+}
+#mainDiv #sale #border2{
+    border-bottom: 10px solid white;
+    width: 140px;
+    transform: translateY(-170px) translateX(800px);
+}
+
+/* ===============================-------------------------------SALE BITIS===============================------------------------------- */
+
+/* ===============================-------------------------------MESSAGE BASLANGIC===============================------------------------------- */
+
+#mainDiv #message{
+    width: 100%;
+    height: 730px;
+    background-color: #E72E36;
+}
+
+#mainDiv #message h1{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(140px) translateY(100px);
+    display: inline-block;
+}
+
+#mainDiv #message h2{
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(-265px) translateY(145px);
+}
+
+#mainDiv #message b{
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transform: translateX(-250px) translateY(145px);
+}
+
+#mainDiv #message input{
+    width: 500px;
+    height: 50px;
+    transform: translateY(250px) translateX(-650px);
+    font-size: 20px;
+}
+#mainDiv #message p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(210px) translateX(-1160px);
+    display: inline-block;
+}
+
+#mainDiv #message input:nth-child(6){
+    transform: translateX(145px) translateY(250px);
+    font-size: 20px;
+}
+
+#mainDiv #message h3{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(210px) translateX(-370px);
+    display: inline-block;
+}
+
+#mainDiv #message input:nth-child(8){
+    transform: translateX(-435px) translateY(400px);
+    font-size: 20px;
+    height: 120px;
+}
+
+#mainDiv #message #border3{
+    border: 3px solid white;
+    color: #FEFFFF;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transform: translateX(145px) translateY(450px);
+    cursor: pointer;
+}
+/* ===============================-------------------------------MESSAGE BITIS===============================------------------------------- */
+
+/* ===============================-------------------------------FOOTER BASLANGIC===============================------------------------------- */
+#mainDiv #footer{
+    width: 100%;
+    height: 290px;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+}
+
+#mainDiv #footer p{
+    transform: translateY(270px);
+}
+/* ===============================-------------------------------FOOTER BITIS===============================------------------------------- */
